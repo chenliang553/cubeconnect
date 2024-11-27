@@ -354,6 +354,38 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .hero .game-instructions {
+            background: rgba(44, 44, 62, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .hero .game-instructions h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .hero .instructions-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .hero .instructions-content li {
+            margin: 10px 0;
+            font-size: 0.95rem;
+        }
+
+        .hero .shop-hint {
+            margin-top: 15px;
+            font-style: italic;
+            color: var(--accent-color);
+        }
+
+        .hero .main-goal p {
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
@@ -379,6 +411,24 @@
                 <div class="stat-item">
                     <span class="stat-number">4.8</span>
                     <span class="stat-label">Rating</span>
+                </div>
+            </div>
+            <div class="game-instructions">
+                <h3>How to Play</h3>
+                <div class="instructions-content">
+                    <div class="main-goal">
+                        <p>🎯 Build a path for your ball to roll to the pink flag. Click and drag cubes to place them on the grid. You have 5 seconds to build your path before the ball starts rolling!</p>
+                    </div>
+                    <div class="special-blocks">
+                        <ul>
+                            <li>🔷 Blue Blocks: Help your ball jump between cubes</li>
+                            <li>⬜ White Blocks: Contains teleport holes for your ball</li>
+                            <li>🪙 Coins: Collect them along your path</li>
+                        </ul>
+                    </div>
+                    <div class="shop-hint">
+                        <p>💡 Pro Tip: Collect coins to unlock awesome skins in the shop!</p>
+                    </div>
                 </div>
             </div>
             <a href="#game-section" class="cta-button" id="play-button">Play Free Now</a>
@@ -679,7 +729,6 @@
         gtag('config', 'G-YW8968KLN5');
         </script>        
     </div>
-
 
 </body>
 </html>
