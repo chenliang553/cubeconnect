@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+    <!-- 背景 -->
+    <rect x="0" y="0" width="32" height="32" fill="#4A90E2" rx="6" ry="6"/>
+    
+    <!-- 立方体图案 -->
+    <rect x="8" y="8" width="7" height="7" fill="#FFFFFF"/>
+    <rect x="17" y="8" width="7" height="7" fill="#FFFFFF"/>
+    <rect x="8" y="17" width="7" height="7" fill="#FFFFFF"/>
+    <rect x="17" y="17" width="7" height="7" fill="#FFFFFF"/>
+    
+    <!-- 连接线 -->
+    <path d="M15 11.5 L17 11.5" stroke="#FF6B6B" stroke-width="2"/>
+    <path d="M11.5 15 L11.5 17" stroke="#FF6B6B" stroke-width="2"/>
+</svg> 
